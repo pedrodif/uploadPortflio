@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(../fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'), url(../fonts/Montserrat-Bold.ttf) format('truetype');
+}
+
+body {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 0px;
+  width: 100%;
+}
+
+/* Header */
+header {
+  background-image: url(../img/art19.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  min-height: 400px;
+  text-align: center;
+  font-family: 'Open Sans Condensed';
+}
+
+header .intro-text{
+  margin:  auto;
+  padding-top: 17%;
+}
+
+header .intro-text p, header .intro-text h1 {
+  color: #fff;
+}
+
+header .intro-text h1 {
+  margin: 0px;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+header .intro-text p {
+  font-size: 2em;
+  font-style: italic;
+  letter-spacing: 5px;
+}
+
+header .intro-text .btn-intro {
+  color: #fff;
+  background-color: rgb(13, 32, 54);
+  border-color:  rgb(13, 32, 54);
+  border-radius: 3px;
+  font-size: 1.6em;
+  font-family: 'Montserrat';
+  padding: 20px 40px;
+  line-height: 1.42857143;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header .intro-text .btn-intro:hover{
+  border: none;
+  background-color: rgb(83, 0, 18);
+}
+
+
+/* Main */
+main {
+  color: #333;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+main .box{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+main .service{
+  width: 25%;
+  height: 350px;
+  margin: 2%; 
+  box-shadow: 6px 6px 40px 0 rgba(0, 0, 0, 0.2) ;
+  background-color: rgb(232, 86, 73);
+  border-radius: 2%;
+  padding: 2%;
+  color: #fff;
+}
+
+main .service:hover{
+  top:-4px;
+  box-shadow:9px 9px 6px rgb(193, 197, 71);
+  transition: all .2s ease-in-out;
+}
+
+main .service .alt{
+  margin-top: 13%; 
+}
+
+main .service i{
+  font-size: 40px;  
+}
+
+
+main .service .circle-icon {
+  background-color: rgb(193, 197, 71);
+  color: #fff;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  margin: auto;
+  
+}
+
+main .service .circle-icon i{
+  padding-top: 20%;
+}
+
+main .service-description  h1 {
+  font-size: 3em;
+}
+
+main .service-description  p {
+  color: #777;
+  font-style: italic;
+}
+
+main .service p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.75;
+  font-weight: lighter;
+}
+
+.container{
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.container .texto{
+  width: 60%;
+  text-align: justify;
+  line-height: 30px;
+  text-indent: 40px;
+  color: #777;
+}
+
+.container .texto .texto1{
+  margin-left: 62%;
+}
+
+.fotoperfil{
+  width: 20%;
+  margin-left: 15%;
+  margin-right: 17%;
+  margin-top: 10%;
+}
+
+
+.container .fotoperfil .seta{
+  margin-top: -20px;
+   
+}
+
+.container .fotoperfil .seta .seta1{
+  width: 300px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.fotoedit{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+main #hh1{
+  font-size: 3em;
+}
+
+.concluidos{
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4%;
+}
+
+.concluidos .c1{
+  width: 40%;
+  height: 485px;
+  margin: 3%; 
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 30px;
+  color:#fff;
+  text-align: center;
+  padding-top: 15%;
+  padding: 3%;
+  box-shadow: 6px 6px 40px 0 rgba(0, 0, 0, 0.2) ;
+  background-color: rgb(139, 200, 158);
+  border-radius: 8px;
+}
+
+.concluidos .c1:hover{
+  top:-4px;
+  box-shadow:9px 9px 6px rgb(225, 28, 71);
+  transition: all .2s ease-in-out;  
+  width: 45%;
+  height: 495px;
+  padding: 5%;
+
+}
+
+
+main .concluidos i{
+  font-size: 40px;  
+}
+
+main .concluidos .c1 h1{
+  color: #fff;
+}
+
+main .concluidos .c1 .estilo{
+  margin: auto;
+  margin-bottom: 2%;
+  padding-top: 4%;
+  width: 60%;
+  height: 38px;
+
+  background-color:rgb(139, 200, 158);
+  border: 1px solid #fff;
+  color: #fff;
+  margin-top: 6%;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+main .concluidos .c1 .estilo:hover{
+  background-color:rgb(225, 28, 71);
+}
+
+main .concluidos .c1 .estilo1{
+  color: #fff;
+  text-decoration: none;
+}
+
+main .concluidos .c1 .estilo2{
+  font-size: 11px;
+}
+
+main .concluidos .c1 .estilo.p{
+  margin-top: 20%;
+  
+}
+
+main .concluidos .circle-icon {
+  background-color:rgb(225, 28, 71);
+  color: #fff;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+main .concluidos .circle-icon i{
+  padding-top: 20%;
+  padding-left: 15%;
+}
+
+
+/* footer */
+footer {
+  background-color: rgb(108, 169, 158);
+  width: 100;
+  height: 150px;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  font-family: 'Open Sans';
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+footer .address{
+  width: 30%;
+  height: 100%;
+  margin-left: 2%;
+  text-align: center;
+}
+
+footer .social{
+  width: 30%;
+  height: 100%;
+  text-align: center;
+}
+
+footer .about{
+  width: 30%;
+  height: 100%;
+}
+
+footer .social li i{
+  color: #fff;
+}
+
+footer section .social a{
+  color: #555;
+  text-decoration: none;
+}
+
+footer section ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+footer section .social ul li{
+  list-style: none;
+}
+
+footer section.copyright {
+  color: #fff;
+  background-color: rgb(108, 169, 158);
+  border-top: 0,5px solid #fff;
+  margin-top: 1%;
+  text-align: center;
+  height: 30px;
+  padding-top: 1%;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 320px){
+  header{
+    width: 100%;
+    height: 100vh;
+    font-size: 11px;
+  }
+
+  header .botaorespo{
+    margin-top: 70%;
+  }
+
+  
+  header .intro-text .btn-intro {
+    font-size: 1.0em;  
+  }
+
+  main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main .container{
+    width: 80%;
+    height: 100%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .texto{
+    width: 100%;
+    text-align: center;
+  }
+
+  .container .texto .texto1{
+    margin-left: 20%;
+    margin-top: 20%;
+  }
+
+  main #hh1{
+    font-size: 1.9em;
+  }
+
+
+  main .service-description  h1 {
+    font-size: 1.9em;
+  }
+
+  .container .fotoedit{
+    width: 150px;
+    height: 150px;
+  }
+
+  .container .fotoperfil .seta .seta1{
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+ }
+
+  main .service{
+    width: 80%;
+    height: 100%;
+    margin: 6%;  
+  }
+
+  .concluidos{
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .concluidos .c1{
+    width: 100%;
+    height: 100%;
+    margin: 6%;
+  }
+
+  footer{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-content{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;    
+  }
+
+  footer .address{
+    width: 90%;
+  }
+
+  footer .social{
+    width: 90%;
+    height: 100%;
+  }
+
+  footer .social ul{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  footer .about{
+    width: 90%;
+    height: 100%;
+  }
+
+  footer  .copyright{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    padding-top: 10%;
+  }
+ 
+}
+
+
+
+
+

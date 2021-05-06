@@ -1,0 +1,57 @@
+       
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header{
+    background-color: #1A2A58;
+    height: 100px;
+    padding: 20px;
+}
+
+#logo{
+    float:left;
+    clear:both;
+}
+
+#imglogo{
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#logo-nm{
+    color:white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.container{
+    width: 80%;
+    margin-top: 5%;  
+    margin-bottom: 5%;  
+    text-align: justify; 
+}
+
+#fim{
+    clear: both;
+    text-align: center;
+    background-color: rgb(53, 47, 47);
+    height: 80px;
+    color: white;
+    vertical-align: middle;
+}
+
+footer{
+    margin-top: 5px;
+    font-size: 12px;
+    padding-top: 3%;
+}
